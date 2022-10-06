@@ -46,15 +46,16 @@ header a {
     text-decoration: none;
     font-weight: 600;
     color: #fff;
-    transition: 200ms ease-in;
     padding: 10px;
     margin: 0 30px;
     border-radius: 20px;
+    border: 2px solid transparent;
+    transition: 200ms linear;
 }
 
 header a:hover {
-    color: #ddd;
-    background-color: #f00d;
+    color: #aaa;
+    border: 2px solid #f00d;
 }
 
 #close {
